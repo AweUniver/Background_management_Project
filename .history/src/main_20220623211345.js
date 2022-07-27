@@ -40,10 +40,10 @@ import "./assets/less/home.less";
 import "./assets/less/common.less";
 import "./assets/less/reset.less";
 
-import router from "./router";
-import store from "./store";
+import router from "../router";
+import store from "../store";
 import http from "axios";
-import "./api/mock.js";
+import "../api/mock.js";
 
 Vue.config.productionTip = false;
 Vue.use(Button);

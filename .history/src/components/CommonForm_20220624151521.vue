@@ -3,7 +3,7 @@
     <el-form-item
       v-for="item in formLabel"
       :key="item.label"
-      :label="item.label" 
+      :label="item.label"
     >
       <el-input
         v-if="item.type === 'input'"

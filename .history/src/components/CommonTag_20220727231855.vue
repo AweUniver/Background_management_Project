@@ -41,7 +41,7 @@ export default {
       }
       if (index === length) {
         this.$router.push({
-          name: this.tags[index - 1].name,
+          name: this.tags[index-1].name,
         });
       } else {
         this.$router.push({
